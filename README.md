@@ -20,3 +20,4 @@ A tarefa termina com a entrega correta. O limite externo padrão de 200 passos t
 
 Referência
 Taxi - documentação oficial do Gymnasium
+https://gymnasium.farama.org/environments/toy_text/taxi
