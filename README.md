@@ -1,6 +1,8 @@
 # IA_Projeto-Taxi
 Projeto de Inteligência Artificial da UFU: Aprendizagem por reforço no ambiente Taxi do Gymnasium
 
+Aluno: Gustavo Marques Oliveira
+
 # Problema
 
 Treinar um agente para buscar um passageiro e desembarcá-lo no destino correto no ambiente Taxi do Gymnasium, reduzindo passos desnecessários e ações ilegais.
