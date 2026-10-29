@@ -17,11 +17,10 @@ Com a física fixa, essas informações e a ação determinam o próximo estado,
 
 O agente recebe dois números contínuos; a imagem do ambiente serve para visualização.
 # Ações
-| Código | Ação |
-|---|---|
-| 0 | Aplicar força do motor para a esquerda |
-| 1 | Não aplicar força do motor |
-| 2 | Aplicar força do motor para a direita |
+Código	Ação
+0	Aplicar força do motor para a esquerda
+1	Não aplicar força do motor
+2	Aplicar força do motor para a direita
 
 Uma ação por passo. Força do motor zero não faz o carro parar: a velocidade atual e a gravidade continuam atuando.
 # Recompensa original
