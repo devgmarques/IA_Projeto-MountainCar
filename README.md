@@ -36,4 +36,5 @@ O limite é uma proteção externa da execução. Caso o prazo faça parte do ob
 
 # Referências
 Mountain Car documentação do Gymnasium: https://gymnasium.farama.org/environments/classic_control/mountain_car/
+
 Código oficial do ambiente: https://github.com/Farama-Foundation/Gymnasium/blob/main/gymnasium/envs/classic_control/mountain_car.py
