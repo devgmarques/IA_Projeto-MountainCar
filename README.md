@@ -1,32 +1,40 @@
-# IA_Projeto-Taxi
-Projeto de Inteligência Artificial da UFU: Aprendizagem por reforço no ambiente Taxi do Gymnasium
+# IA_Projeto_MountainCar
+Projeto de Inteligência Artificial da UFU: Aprendizagem por reforço no ambiente MountainCar do Gymnasium
 
 Aluno: Gustavo Marques Oliveira
 
 # Problema
+Controlar um carro com motor limitado para alcançar a bandeira na encosta direita de um vale. O agente precisa aprender a coordenar os impulsos e ganhar embalo, reduzindo o número de passos até a meta.
 
-Treinar um agente para buscar um passageiro e desembarcá-lo no destino correto no ambiente Taxi do Gymnasium, reduzindo passos desnecessários e ações ilegais.
+Usaremos o ambiente existente MountainCar-v0, da biblioteca Gymnasium, na configuração padrão com ações discretas. O projeto desenvolverá o agente, o treinamento e a avaliação, aproveitando a simulação pronta.
 Ambiente e estado markoviano
-Mapa fixo 5 × 5, com paredes e quatro pontos de atendimento. Configuração padrão, sem chuva nem mudança de destino.
+O vale e os parâmetros físicos são fixos. O carro começa com velocidade zero e posição sorteada próxima ao fundo do vale.
 
-Estado: (linha do táxi, coluna do táxi, localização do passageiro, destino).
+O estado observado é s = (posição, velocidade).
+- Posição: localização horizontal do carro.
+- Velocidade: rapidez e sentido do movimento.
+Com a física fixa, essas informações e a ação determinam o próximo estado, sem recuperar toda a trajetória. A posição sozinha não basta: dois carros no mesmo lugar podem estar se movendo em sentidos diferentes.
 
-O passageiro pode estar em um dos quatro pontos ou dentro do táxi. Com esse estado e as regras fixas, a próxima transição e a recompensa dependem do estado atual e da ação, sem consultar o trajeto anterior.
-
+O agente recebe dois números contínuos; a imagem do ambiente serve para visualização.
 # Ações
+| Código | Ação |
+|---|---|
+| 0 | Aplicar força do motor para a esquerda |
+| 1 | Não aplicar força do motor |
+| 2 | Aplicar força do motor para a direita |
 
-Mover para sul, norte, leste ou oeste; embarcar; desembarcar. Embarque e desembarque são ações explícitas.
+Uma ação por passo. Força do motor zero não faz o carro parar: a velocidade atual e a gravidade continuam atuando.
+# Recompensa original
 
-# Recompensas originais
-- +20 por entrega correta.
-- -10 por tentativa ilegal de embarcar ou desembarcar.
-- -1 nos demais passos, inclusive movimento bloqueado por parede.
-As categorias são alternativas, não cumulativas. Um desembarque em outro ponto designado pode ser permitido sem concluir a tarefa; não é automaticamente uma ação ilegal.
+-1 por passo, inclusive no passo que alcança a meta. Não há bônus positivo de chegada.
 
-# Término
+Sem desconto, o retorno de uma tentativa de T passos é G = -T. Por exemplo, atingir a meta em 120 passos rende -120, melhor que -180 para 180 passos. São exemplos hipotéticos, não resultados de treinamento.
 
-A tarefa termina com a entrega correta. O limite externo padrão de 200 passos trunca tentativas longas; esse evento não conta como sucesso.
+# Fim da tentativa
+- Sucesso: posição x >= 0.5 e velocidade v >= 0, na configuração padrão (goal_velocity=0).
+- Truncamento: limite externo de 200 passos.
+O limite é uma proteção externa da execução. Caso o prazo faça parte do objetivo de um MDP de horizonte finito, o tempo restante deverá integrar o estado. Truncamento não é sinônimo de sucesso.
 
-# Referência
-Taxi - documentação oficial do Gymnasium
-https://gymnasium.farama.org/environments/toy_text/taxi
+# Referências
+Mountain Car documentação do Gymnasium: https://gymnasium.farama.org/environments/classic_control/mountain_car/
+Código oficial do ambiente: https://github.com/Farama-Foundation/Gymnasium/blob/main/gymnasium/envs/classic_control/mountain_car.py
