@@ -1,0 +1,41 @@
+{
+  "aleatorio": {
+    "episodes": 100,
+    "successes": 0,
+    "success_rate": 0.0,
+    "success_ci95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_return": -200.0,
+    "std_return": 0.0,
+    "mean_steps_all": 200.0,
+    "mean_steps_success": null
+  },
+  "dqn": {
+    "episodes": 100,
+    "successes": 100,
+    "success_rate": 1.0,
+    "success_ci95": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "mean_return": -102.36,
+    "std_return": 5.657782697356363,
+    "mean_steps_all": 102.36,
+    "mean_steps_success": 102.36
+  },
+  "protocol": {
+    "environment": "MountainCar-v0",
+    "seed_start": 20000,
+    "seed_end": 20099,
+    "action_seed": 12345,
+    "deterministic_dqn": true,
+    "training_updates": false,
+    "model_step": 210000,
+    "model_episode": 1220,
+    "model_sha256": "c03e4d8722e631b6bdc9d534c9990841b26f0a04a138db0004db448bc3bff9fd",
+    "evaluated_utc": "2026-11-15T12:43:18.932624+00:00",
+    "note": "Uma execução de treinamento. Teste separado da seleção do modelo por validação."
+  }
+}

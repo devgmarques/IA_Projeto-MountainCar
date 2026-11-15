@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-11-15T12:38:27.330997+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.5.1+cpu",
+  "gymnasium": "1.2.2",
+  "numpy": "2.3.5",
+  "processor": "AMD64 Family 23 Model 160 Stepping 0, AuthenticAMD",
+  "origin": "executed training; see config.json",
+  "elapsed_seconds": 249.39345510001294,
+  "steps_completed": 250000,
+  "episodes_completed": 1563,
+  "interrupted": false,
+  "best_validation_return": -102.5,
+  "partial_episode_steps": 21
+}

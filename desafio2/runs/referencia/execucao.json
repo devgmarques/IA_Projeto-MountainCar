@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-11-11T20:43:46.714684+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "torch": "2.5.1+cpu",
+  "gymnasium": "1.2.2",
+  "numpy": "2.3.5",
+  "processor": "",
+  "origin": "executed training; see config.json",
+  "elapsed_seconds": 70.92380825199996,
+  "steps_completed": 250000,
+  "episodes_completed": 1657,
+  "interrupted": false,
+  "best_validation_return": -100.3,
+  "partial_episode_steps": 77
+}

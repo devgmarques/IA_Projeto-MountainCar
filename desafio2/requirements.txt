@@ -1,0 +1,8 @@
+# Python 3.12 (64 bits). Instale torch CPU separadamente conforme o guia.
+gymnasium[classic-control]==1.2.2
+numpy==2.3.5
+matplotlib==3.10.8
+pygame==2.6.1
+imageio==2.37.2
+imageio-ffmpeg==0.6.0
+reportlab==4.4.9

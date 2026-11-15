@@ -1,0 +1,20 @@
+{
+  "avaliar.py": "1a206c77ac035671986ca1e3867436226496c9f115e9d8f7ecccb92afba97ccc",
+  "demonstrar.py": "4f5c56775a463d4a6a37de3e1e98ae0a35365493241ecd246b27657ad7e2b553",
+  "dqn.py": "aaefcf162bcc2565a3b0c1598c033b8d50c6e1fe1c96ac351c9cbc8ca7acafe1",
+  "graficos.py": "c52c877f4cca42146b40abcea57b2ce9203be6e0c2369aa4d9b0a40aaf9c43dd",
+  "requirements.txt": "c04e819ff2d45e451540e6554029194a733bac8c20701ea72d3b96d1747ad12f",
+  "runs/referencia/avaliacao.csv": "6d767893622338fbc780f9af5a3db566480af1d672561e4c5aef5c8711324729",
+  "runs/referencia/config.json": "0799cdee0b10cb0571654d6f73a2875499373c1648c68234d3529f60203b401e",
+  "runs/referencia/console_treinamento.txt": "b1d91e81cd0e70a69ebaf7702acf109311cbfb469aa854b15179c3e16c36d9dd",
+  "runs/referencia/execucao.json": "32de7fbd44302d89aef8a9c27cd2cd61e3c6e6937779ecb6f38de8b04d1a2a56",
+  "runs/referencia/melhor_modelo.pt": "60a1e0c57589b9a3eda74cc0b25949339acc6676e9e69dac90464f70afedf83b",
+  "runs/referencia/resultados_para_fala.txt": "08de12078b1f5a15289c2bf5d486fced9e0af20304ea3b9ec32e28dfe243e8f0",
+  "runs/referencia/resumo.json": "e10451b1022268d6918e3c07a7601b359c2e007d9d685c400784791059b4b5ca",
+  "runs/referencia/treino.csv": "675714a9bc966b235eb4f02f50c1c1f9e4b01b689ef0220f445804aa25f5f3ea",
+  "runs/referencia/ultimo_modelo.pt": "9647112d8f487a064292b8b8d31284e5dd1cd62a7eef31529420b74266bf2834",
+  "runs/referencia/validacao.csv": "056506e1c28863dcdc19e1f8bbca61fdbde41d7ba82a0c5a02426e37bbe58dd4",
+  "tests/test_dqn.py": "795380258652947ae8505a99a40e977a393f691d634d3684fa59194207de4a5a",
+  "treinar.py": "8e4aaf102aad0f8c4302df6b07ee4eb20611569124ab31c7549d25db92f17849",
+  "verificar.py": "199a08565a2d078d84db07bb46c34963fe8d6bd77d868c3bbbd9f4b7dbfc3d0f"
+}

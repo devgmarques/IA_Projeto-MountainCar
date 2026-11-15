@@ -1,0 +1,60 @@
+VALIDAÇÃO passo=0 retorno=-200.0 sucesso=0% melhor=-200.0
+Episódio 50 | passo 10,000 | retorno -200 | epsilon 0.873 | 2s
+VALIDAÇÃO passo=10,000 retorno=-200.0 sucesso=0% melhor=-200.0
+Episódio 100 | passo 20,000 | retorno -200 | epsilon 0.747 | 4s
+VALIDAÇÃO passo=20,000 retorno=-200.0 sucesso=0% melhor=-200.0
+Episódio 150 | passo 30,000 | retorno -200 | epsilon 0.620 | 7s
+VALIDAÇÃO passo=30,000 retorno=-169.0 sucesso=60% melhor=-169.0
+Episódio 200 | passo 39,905 | retorno -200 | epsilon 0.495 | 10s
+VALIDAÇÃO passo=40,000 retorno=-147.1 sucesso=100% melhor=-147.1
+Episódio 250 | passo 49,905 | retorno -200 | epsilon 0.368 | 12s
+VALIDAÇÃO passo=50,000 retorno=-200.0 sucesso=0% melhor=-147.1
+Episódio 300 | passo 59,905 | retorno -200 | epsilon 0.241 | 15s
+VALIDAÇÃO passo=60,000 retorno=-200.0 sucesso=0% melhor=-147.1
+Episódio 350 | passo 69,879 | retorno -200 | epsilon 0.115 | 18s
+VALIDAÇÃO passo=70,000 retorno=-200.0 sucesso=0% melhor=-147.1
+Episódio 400 | passo 78,887 | retorno -163 | epsilon 0.050 | 21s
+VALIDAÇÃO passo=80,000 retorno=-197.0 sucesso=20% melhor=-147.1
+Episódio 450 | passo 87,333 | retorno -169 | epsilon 0.050 | 24s
+VALIDAÇÃO passo=90,000 retorno=-135.9 sucesso=90% melhor=-135.9
+Episódio 500 | passo 95,977 | retorno -200 | epsilon 0.050 | 26s
+VALIDAÇÃO passo=100,000 retorno=-200.0 sucesso=0% melhor=-135.9
+Episódio 550 | passo 104,746 | retorno -114 | epsilon 0.050 | 29s
+VALIDAÇÃO passo=110,000 retorno=-145.8 sucesso=70% melhor=-135.9
+Episódio 600 | passo 113,047 | retorno -200 | epsilon 0.050 | 31s
+VALIDAÇÃO passo=120,000 retorno=-200.0 sucesso=0% melhor=-135.9
+Episódio 650 | passo 121,471 | retorno -152 | epsilon 0.050 | 34s
+Episódio 700 | passo 129,129 | retorno -113 | epsilon 0.050 | 36s
+VALIDAÇÃO passo=130,000 retorno=-127.0 sucesso=100% melhor=-127.0
+Episódio 750 | passo 136,830 | retorno -88 | epsilon 0.050 | 38s
+VALIDAÇÃO passo=140,000 retorno=-125.2 sucesso=100% melhor=-125.2
+Episódio 800 | passo 144,779 | retorno -179 | epsilon 0.050 | 41s
+VALIDAÇÃO passo=150,000 retorno=-142.2 sucesso=80% melhor=-125.2
+Episódio 850 | passo 152,911 | retorno -86 | epsilon 0.050 | 43s
+VALIDAÇÃO passo=160,000 retorno=-133.5 sucesso=80% melhor=-125.2
+Episódio 900 | passo 160,550 | retorno -149 | epsilon 0.050 | 45s
+Episódio 950 | passo 167,847 | retorno -171 | epsilon 0.050 | 47s
+VALIDAÇÃO passo=170,000 retorno=-132.6 sucesso=100% melhor=-125.2
+Episódio 1000 | passo 174,847 | retorno -154 | epsilon 0.050 | 49s
+VALIDAÇÃO passo=180,000 retorno=-136.9 sucesso=100% melhor=-125.2
+Episódio 1050 | passo 182,290 | retorno -150 | epsilon 0.050 | 52s
+Episódio 1100 | passo 188,777 | retorno -110 | epsilon 0.050 | 53s
+VALIDAÇÃO passo=190,000 retorno=-123.0 sucesso=100% melhor=-123.0
+Episódio 1150 | passo 194,372 | retorno -91 | epsilon 0.050 | 55s
+Episódio 1200 | passo 199,992 | retorno -130 | epsilon 0.050 | 57s
+VALIDAÇÃO passo=200,000 retorno=-103.1 sucesso=100% melhor=-103.1
+Episódio 1250 | passo 205,387 | retorno -99 | epsilon 0.050 | 58s
+VALIDAÇÃO passo=210,000 retorno=-100.3 sucesso=100% melhor=-100.3
+Episódio 1300 | passo 210,722 | retorno -114 | epsilon 0.050 | 60s
+Episódio 1350 | passo 216,165 | retorno -110 | epsilon 0.050 | 61s
+VALIDAÇÃO passo=220,000 retorno=-103.1 sucesso=100% melhor=-100.3
+Episódio 1400 | passo 221,587 | retorno -109 | epsilon 0.050 | 63s
+Episódio 1450 | passo 226,875 | retorno -105 | epsilon 0.050 | 64s
+VALIDAÇÃO passo=230,000 retorno=-127.7 sucesso=100% melhor=-100.3
+Episódio 1500 | passo 232,593 | retorno -101 | epsilon 0.050 | 66s
+Episódio 1550 | passo 238,050 | retorno -108 | epsilon 0.050 | 68s
+VALIDAÇÃO passo=240,000 retorno=-103.9 sucesso=100% melhor=-100.3
+Episódio 1600 | passo 243,278 | retorno -106 | epsilon 0.050 | 69s
+Episódio 1650 | passo 249,143 | retorno -127 | epsilon 0.050 | 71s
+VALIDAÇÃO passo=250,000 retorno=-110.7 sucesso=100% melhor=-100.3
+Concluído. Modelo para demonstrar: runs/referencia/melhor_modelo.pt

@@ -1,0 +1,32 @@
+{
+  "env": "MountainCar-v0",
+  "steps": 250000,
+  "seed": 42,
+  "hidden": 64,
+  "gamma": 0.99,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "buffer_size": 50000,
+  "learning_starts": 2000,
+  "train_every": 4,
+  "target_every": 1000,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.05,
+  "epsilon_decay_steps": 75000,
+  "eval_every": 10000,
+  "validation_seeds": [
+    10000,
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009
+  ],
+  "max_episode_steps": 200,
+  "reward_shaping": false,
+  "device": "cpu"
+}

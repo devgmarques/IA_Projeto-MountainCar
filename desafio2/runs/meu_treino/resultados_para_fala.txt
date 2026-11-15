@@ -1,0 +1,8 @@
+RESULTADOS REAIS DA PASTA runs\meu_treino
+Treino: seed 42, 250000 passos.
+Modelo selecionado na validação: passo 210000.
+Aleatório: 0/100 sucessos; retorno -200.00.
+DQN: 100/100 sucessos; retorno -102.36.
+Passos médios nos sucessos do DQN: 102.36.
+Não confundir retorno de treino com teste. As curvas podem oscilar.
+O teste usa 100 seeds por padrão, mas apenas um treinamento; não mede variação entre treinos.
