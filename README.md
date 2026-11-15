@@ -38,3 +38,27 @@ O limite é uma proteção externa da execução. Caso o prazo faça parte do ob
 Mountain Car documentação do Gymnasium: https://gymnasium.farama.org/environments/classic_control/mountain_car/
 
 Código oficial do ambiente: https://github.com/Farama-Foundation/Gymnasium/blob/main/gymnasium/envs/classic_control/mountain_car.py
+
+## Desafio 2 — DQN no MountainCar
+
+Treinamento realizado localmente com 250.000 passos e seed 42.
+Rede neural com duas entradas, duas camadas ocultas de 64 neurônios
+e três saídas, uma para cada ação.
+
+O modelo foi selecionado pela validação e depois avaliado em
+100 tentativas, sem atualizar os pesos durante o teste.
+
+| Agente | Sucessos | Retorno médio |
+|---|---:|---:|
+| Aleatório | 0/100 | -200,00 |
+| DQN | 100/100 | -102,36 |
+
+O DQN chegou à meta em 102,36 passos, em média.
+Esses resultados correspondem a um único treinamento.
+
+- [Apresentação com resultados locais](desafio2/runs/meu_treino/slides_resultados.pdf)
+- [Código do treinamento](desafio2/treinar.py)
+- [Modelo treinado](desafio2/runs/meu_treino/melhor_modelo.pt)
+- [Dados e gráficos](desafio2/runs/meu_treino)
+- [Vídeo da demonstração](desafio2/runs/meu_treino/demonstracao.mp4)
+- [Guia de execução](desafio2/GUIA_COMPLETO.md)
